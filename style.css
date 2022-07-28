@@ -8,3 +8,10 @@ body{
 #opacity-1, #opacity-2, #opacity-3{
     filter: brightness(50%);
 }
+.bg-explore{
+    background-color: #F4FAFD;
+}
+.bg-explore h2{
+    padding-top: 20%;
+    
+}

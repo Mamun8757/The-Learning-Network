@@ -44,7 +44,8 @@ body{
         .centered-1 {
             position: relative;
             text-align: center;
-            color: white;
+            color: rgb(255, 255, 255);
+            
         }
     
         .centered {
@@ -54,5 +55,7 @@ body{
             transform: translate(-50%, -50%);
             width: 100%;
             height: auto;
+            margin-top: 10px;
+            
         }
 }

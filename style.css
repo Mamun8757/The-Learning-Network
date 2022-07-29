@@ -14,9 +14,45 @@ body{
     padding-top: 20%;
     
 }
+.centered-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 991px) {
     .trusted-company{
         display: none;
     }
     
+}
+@media only screen and (max-width: 576px) {
+    .mobile-view{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 200px) and (max-width: 991px) {
+        .centered-1 {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+    
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: auto;
+        }
 }

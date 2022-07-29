@@ -15,3 +15,9 @@ body{
     padding-top: 20%;
     
 }
+@media screen and (max-width: 991px) {
+    .trusted-company{
+        display: none;
+    }
+    
+}
